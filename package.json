@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start:dev": "nodemon server.js",
-    "start:pro": "NODE_ENV=production node server.js"
+    "start:pro": "NODE_ENV=production node server.js",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
